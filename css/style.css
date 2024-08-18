@@ -71,6 +71,74 @@ body{
     font-weight: 300;
     font-size: 26px;
 }
+#home .caption h4::after{
+    content: "";
+    animation: text infinite alternate 4s;
+    -webkit-animation: text infinite alternate 4s;
+}
+@keyframes text{
+    0%{
+        content: "  |";
+    }
+    5%{
+        content: "D |";
+    }
+    10%{
+        content: "De |";
+    }
+    15%{
+        content: "Dev |";
+    }
+    20%{
+        content: "Deve |";
+    }
+    25%{
+        content: "Devel |";
+    }
+    30%{
+        content: "Develo |";
+    }
+    35%{
+        content: "Develop |";
+    }
+    40%{
+        content: "Develope |";
+    }
+    45%{
+        content: "Developer |";
+    }
+    50%{
+        content:  " |";
+    }
+    55%{
+        content:  "D |";
+    }
+    60%{
+        content:  "De |";
+    }
+    65%{
+        content:  "Des |";
+    }
+    70%{
+        content:  "Desi |";
+    }
+    75%{
+        content:  "Desig |";
+    }
+    80%{
+        content:  "Design |";
+    }
+    85%{
+        content:  "Designe |";
+    }
+    90%{
+        content: "Designer |";
+    }
+    
+    100%{
+        content: " |";
+    }
+}
 .caption h3{ 
     font-weight: 600;
     font-size: 24px;
